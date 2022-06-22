@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/leo/learn/contracts/Box.sol": {
-      "lastModificationDate": 1655454104999,
-      "contentHash": "532dfcfd428f34edef38ebf67d18141c",
+      "lastModificationDate": 1655635810532,
+      "contentHash": "c308a2aa31fe1c12c315b089087622d1",
       "sourceName": "contracts/Box.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -28,12 +28,16 @@
           }
         }
       },
-      "imports": [],
+      "imports": [
+        "./access-control/Auth.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
       "versionPragmas": [
-        "0.8.4"
+        "^0.8.4"
       ],
       "artifacts": [
-        "Box"
+        "Box",
+        "Box1"
       ]
     },
     "/Users/leo/learn/contracts/Migrations.sol": {
@@ -69,6 +73,113 @@
       ],
       "artifacts": [
         "Migrations"
+      ]
+    },
+    "/Users/leo/learn/contracts/access-control/Auth.sol": {
+      "lastModificationDate": 1655455650170,
+      "contentHash": "9d904e8d08c7c0d9980aa809a698d4e2",
+      "sourceName": "contracts/access-control/Auth.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Auth"
+      ]
+    },
+    "/Users/leo/learn/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1655456542184,
+      "contentHash": "8398972af73b4e9e5ff3b31cad86234f",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/leo/learn/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1655456542125,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
       ]
     }
   }

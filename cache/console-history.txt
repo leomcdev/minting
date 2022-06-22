@@ -1,0 +1,29 @@
+npx hardhat run --network rinkeby scripts/deploy.js
+ --network rinkeby scripts/deploy.js
+npx hardhat run --network rinkeby scripts/deploy.js
+(await box.retrieve()).toString()
+await box.store(42);
+const box = await Box.attach('0xD7fBC6865542846e5d7236821B5e045288259cf0');
+await box.store(42);
+const Box = await ethers.getContractFactory('Box');
+await box.store(42);
+const box = await Box.attach('0xD7fBC6865542846e5d7236821B5e045288259cf0');
+const Box = await ethers.getContractFactory('Box');
+que
+cd
+npx hardhat run --network rinkeby scripts/deploy.js
+back
+que
+npx hardhat run --network rinkeby scripts/deploy.js
+(await ethers.provider.getBalance(accounts[0])).toString()
+accounts = await ethers.provider.listAccounts()
+accounts = await ethers.proovider.listAccounts()
+npx hardhat run --network localhost ./scripts/index.js
+npx hardhat run
+que
+npx hardhat run
+npx hardhat run --network localhost ./scripts/index.js
+(await box.retrieve()).toString()
+await box.store(42)
+const box = await Box.attach('0x5FbDB2315678afecb367f032d93F642f64180aa3')
+const Box = await ethers.getContractFactory('Box');
